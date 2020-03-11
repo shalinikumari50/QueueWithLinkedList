@@ -64,8 +64,9 @@ public class MyQueue {
                 "1 - to insert an element\n" +
                 "2 - to display queue\n" +
                 "3 - to delete an element\n" +
-                "4 - to delete queue\n" +
-                "5 - to print menu");
+                "4 - to peek in queue\n" +
+                "5 - to delete queue\n" +
+                "6 - to print menu");
     }
 
 }
