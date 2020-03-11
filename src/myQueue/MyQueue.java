@@ -43,4 +43,10 @@ public class MyQueue {
         System.out.println();
     }
 
+    public void deleteQueue() {
+        start = null;
+        end = null;
+        System.out.println("Queue deleted!");
+    }
+
 }
