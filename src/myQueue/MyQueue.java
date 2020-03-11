@@ -10,4 +10,14 @@ public class MyQueue {
         start = null;
         end = null;
     }
+
+    public void enqueue(Node newNode) {
+        if (start == null) {
+            start = newNode;
+        } else {
+            end.setNext(newNode);
+        }
+        end = newNode;
+        System.out.println("Element inserted");
+    }
 }
