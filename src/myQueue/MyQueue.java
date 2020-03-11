@@ -26,8 +26,9 @@ public class MyQueue {
             System.out.println("Queue is empty - underflow");
         } else {
             start = start.getNext();
+            System.out.println("First element deleted");
         }
-        System.out.println("First element deleted");
+
     }
 
     public void displayQueue() {
