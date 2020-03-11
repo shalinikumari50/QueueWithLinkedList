@@ -20,4 +20,14 @@ public class MyQueue {
         end = newNode;
         System.out.println("Element inserted");
     }
+
+    public void dequeue() {
+        if (start == null) {
+            System.out.println("Queue is empty - underflow");
+        } else {
+            start = start.getNext();
+        }
+        System.out.println("First element deleted");
+    }
+
 }
