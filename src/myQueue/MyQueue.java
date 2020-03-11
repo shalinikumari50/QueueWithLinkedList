@@ -49,4 +49,14 @@ public class MyQueue {
         System.out.println("Queue deleted!");
     }
 
+    public void printMenu() {
+        System.out.println("press");
+        System.out.println("0 - to quit\n" +
+                "1 - to insert an element\n" +
+                "2 - to display queue\n" +
+                "3 - to delete an element\n" +
+                "4 - to delete queue\n" +
+                "5 - to print menu");
+    }
+
 }
