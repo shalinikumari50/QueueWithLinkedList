@@ -39,9 +39,12 @@ public class Main {
                     myQueue.dequeue();
                     break;
                 case 4:
-                    myQueue.deleteQueue();
+                    myQueue.peek();
                     break;
                 case 5:
+                    myQueue.deleteQueue();
+                    break;
+                case 6:
                     myQueue.printMenu();
                     break;
                 default:
