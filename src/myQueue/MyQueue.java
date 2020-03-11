@@ -50,6 +50,14 @@ public class MyQueue {
         System.out.println("Queue deleted!");
     }
 
+    public void peek() {
+        if (start == null) {
+            System.out.println("Queue is empty - underflow");
+            return;
+        }
+        System.out.println(start.getData());
+    }
+
     public void printMenu() {
         System.out.println("press");
         System.out.println("0 - to quit\n" +
