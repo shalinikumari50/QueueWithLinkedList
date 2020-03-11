@@ -1,6 +1,6 @@
 package myQueue;
 
-import Node.Node;
+import node.Node;
 
 public class MyQueue {
     private Node start;
