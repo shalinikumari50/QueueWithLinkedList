@@ -30,4 +30,17 @@ public class MyQueue {
         System.out.println("First element deleted");
     }
 
+    public void displayQueue() {
+        if (start == null) {
+            System.out.println("Queue is empty - underflow");
+            return;
+        }
+        Node temp = start;
+        while (temp != null) {
+            System.out.print(temp.getData() + " ");
+            temp = temp.getNext();
+        }
+        System.out.println();
+    }
+
 }
